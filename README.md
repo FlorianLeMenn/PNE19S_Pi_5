@@ -198,7 +198,7 @@ for tool_call in tool_calls:
 3. Deps: `pip install streamlit openai passlib python-dotenv ntplib`.
 4. .env: `XAI_API_KEY=your_key`.
 5. Prompts: Add .txt to ./prompts/ (e.g., PNE-19S full prompt).
-6. Run: `streamlit run app.py --server.port 8501 --server.address 0.0.0.0`.
+6. Run: `streamlit run pne19s.py --server.port 8501 --server.address 0.0.0.0`.
 
 ### Usage Guide
 1. **Launch**: http://localhost:8501.
